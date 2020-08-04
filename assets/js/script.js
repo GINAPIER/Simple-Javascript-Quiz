@@ -245,26 +245,27 @@ function showResults(){
         numCorrect++;
   
         // color the answers green
-        answerQuestions[questionNumber].style.color = 'lightgreen';
+        answerQuestions[questionNumber].style.color = "lightgreen";
       }
       // if answer is wrong or blank
       else{
         // color the answers red
-        answerQuestions[questionNumber].style.color = 'red';
+        answerQuestions[questionNumber].style.color = "red";
       }
     });
   
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${allQuestions.length}`;
   };
+  
 
 
 // Event listeners
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
+    
 
 //var j= allQuestions
   //var li = document.createElement("li");
   //li.textContent = allQuestions;
   //li.setAttribute("data-index", j);
-
