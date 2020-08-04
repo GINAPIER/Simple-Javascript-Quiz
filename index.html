@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+    <title>Simple Javascript Quiz</title>
+</head>
+
+
+<body>
+    <!--header-->
+    <div class="container">
+        <div id="header">
+            <h1> Welcome to Javascript Quiz</h1>
+            <h2> You have to answer four questions in 30 seconds</h2>
+        </div>
+        <!-- Display the countdown timer in an element -->
+
+        <p id="timer"></p>
+        <div id="some_div">
+        </div>
+
+        <button id="start">Start </button>
+        <div class="countdown">
+        </div>
+        <div class="question"></div>
+        <div id="quiz"></div>
+        <form id="quiz" method="POST">
+            <label for="todo-text">Questions</label>
+            <input type ="text" placeholder="ask" name="Questions" id="jquiz"/>
+        </form>
+        <div id="answers"></div>
+        <div id="correctAnswers"></div>
+    <button id="submit">Submit Quiz </button>
+    <div id="results"></div>
+</div>
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
+
+
